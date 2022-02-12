@@ -87,3 +87,28 @@ def print_list():
 #new_list = my_list + my_list2
 #print(new_list)
 #endregion
+
+#region 3rd main List used
+#my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+#print_list()
+
+#region Grab different parts of the list
+
+## Grab between chosen starting position and ending position
+#a  = my_list[1:5]
+
+##Grab from start of list to chosen ending position 
+#a  = my_list[:5]
+
+##Grab from chosen starting position to the very end
+#a  = my_list[1:]
+
+## Can add a step to change how many of the values to print
+#a  = my_list[::2]
+###Can be negative to reverse the list
+#a  = my_list[::-1]
+
+#print(a)
+#endregion
+
+#endregion
