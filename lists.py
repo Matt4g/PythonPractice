@@ -6,10 +6,9 @@ from re import M
 def print_list():
     print(my_list)
 
-
+#region Original main List I used
 #my_list = ['banana', 'cherry', 'apple']
-my_list = [0] * 5
-print_list()
+#print_list()
 
 # Can have int, bool, string, and multiple of same type in a list
 #my_list2 = [5, True, "apple", "apple"]
@@ -75,4 +74,16 @@ print_list()
 #new_list = sorted(my_list_num)
 #print(my_list_num)
 #print(new_list)
+#endregion
 
+#region 2nd main List used
+# Can have 1 item and multiply to make 5 of that same item
+#my_list = [0] * 5
+#print_list()
+
+#my_list2 = [1, 2, 3, 4, 5]
+#
+## Adds lists together
+#new_list = my_list + my_list2
+#print(new_list)
+#endregion
