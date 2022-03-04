@@ -98,6 +98,7 @@ def print_list():
 #a  = my_list[1:5]
 
 ##Grab from start of list to chosen ending position 
+
 #a  = my_list[:5]
 
 ##Grab from chosen starting position to the very end
@@ -110,5 +111,28 @@ def print_list():
 
 #print(a)
 #endregion
+
+#endregion
+
+#region 4th main List Used
+#How to copy a list
+#list_org = ['banana', 'cherry', 'apple']
+
+#list_cpy = list_org
+#list_cpy = list_org[:]
+#list_cpy = list_org.copy()
+#list_cpy = list(list_org)
+
+
+#list_cpy.append('lemon')
+
+#print(list_cpy)
+#print(list_org)
+
+a = [1, 2, 3, 4, 5, 6]
+b = [i*i for i in a]
+
+print(a)
+print(b)
 
 #endregion
