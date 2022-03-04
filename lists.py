@@ -130,9 +130,9 @@ def print_list():
 #print(list_org)
 
 a = [1, 2, 3, 4, 5, 6]
-b = [i*i for i in a]
+#b = [i*i for i in a]
 
-print(a)
-print(b)
+#print(a)
+#print(b)
 
 #endregion
